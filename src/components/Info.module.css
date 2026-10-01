@@ -20,7 +20,7 @@
 }
 
 .Container {
-  background: linear-gradient(rgba(0, 113, 93, 0.85), rgba(0, 113, 93, 0.85)),
+  background: linear-gradient(rgba(15, 19, 18, 0.9), rgba(15, 19, 18, 0.8)),
     url("/images/infoSectionimg.webp");
   background-size: cover;
   background-position: center;
@@ -74,7 +74,7 @@
 }
 
 .ul li {
-  color: #89d3c6;
+  color: black;
   font-size: 1.2rem;
   font-family: "Cedarville Cursive", serif;
   font-weight: 700;

@@ -222,7 +222,7 @@ const Sidebar = ({ isVisible, onClose }) => {
           <span>
             <HiOutlineMail className={styling.Icon} />
           </span>{" "}
-          <p>&nbsp; needhelp@oxpins.com</p>{" "}
+          <p>&nbsp; @kaltechconsultancy.tech</p>{" "}
         </div>
 
         <div className={styling.details}>
@@ -230,7 +230,7 @@ const Sidebar = ({ isVisible, onClose }) => {
           <span>
             <FaPhoneAlt className={styling.Icon} />
           </span>{" "}
-          <p>&nbsp; 666 888 0000</p>{" "}
+          <p>&nbsp; +1(931)-266-6101</p>{" "}
         </div>
       </div>
       <div className={styling.SocialIcons}>

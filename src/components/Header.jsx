@@ -27,7 +27,7 @@ const Header = () => {
         <div className={styling.logo}>
           <img src="/images/kaltech perfect.svg" alt="Logo" />
 
-          <img src="/images/main-menu-shape-1.webp" alt="arrow" />
+          {/* <img src="/images/main-menu-shape-1.webp" alt="arrow" /> */}
         </div>
 
         <div className={styling.right}>
@@ -40,14 +40,14 @@ const Header = () => {
             <div className={styling.helpline}>
               <span className={styling.phone}>
                 <FaPhoneVolume
-                  style={{ fontSize: "1.4rem", color: "#00715d" }}
+                  style={{ fontSize: "1.4rem", color: "#283734" }}
                 />
               </span>{" "}
               <div className={styling.contact}>
                 {" "}
                 <p>Helpline</p>{" "}
                 <div className={styling.Number}>
-                  <li>+ 98 (000) - 9630</li>
+                  <li>+1(931)-266-6101</li>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Header = () => {
               <span className={styling.emailicon}>
                 {" "}
                 <HiOutlineMailOpen
-                  style={{ fontSize: "1.4rem", color: "#00715d" }}
+                  style={{ fontSize: "1.4rem", color: "#283734" }}
                 />{" "}
               </span>{" "}
               <div className={styling.mailAddress}>
@@ -64,7 +64,7 @@ const Header = () => {
                 <p>send Email</p>{" "}
                 <div className={styling.emailAddress}>
                   {" "}
-                  <li> needhelp@company.com </li>
+                  <li> hello@kaltechconsultancy.tech </li>
                 </div>
               </div>
             </div>
@@ -73,15 +73,15 @@ const Header = () => {
               <span className={styling.addressicon}>
                 {" "}
                 <ImLocation2
-                  style={{ fontSize: "1.4rem", color: "#00715d" }}
+                  style={{ fontSize: "1.4rem", color: "#283734" }}
                 />{" "}
               </span>{" "}
               <div className={styling.location}>
                 {" "}
-                <p> 380 St Kilda Road</p>{" "}
+                <p> 815 N Wilson Rd, KY 40160,</p>{" "}
                 <div className={styling.addlocation}>
                   {" "}
-                  <li> Melbourne, Australia </li>
+                  <li> Radcliff Kentucky. </li>
                 </div>
               </div>
             </div>

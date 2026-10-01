@@ -72,7 +72,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
-  color: #00715d;
+  color: #283734;
 }
 
 .rightside h2 {
@@ -104,7 +104,7 @@ body {
   font-size: 1.05rem;
   line-height: 1.9em;
   color: #283734;
-  border-left: 5px solid #00715d;
+  border-left: 5px solid #283734;
   padding-left: 3%;
 }
 
@@ -127,7 +127,7 @@ body {
 }
 
 .box .iconStyle {
-  color: #00715d;
+  color: #283734;
   font-size: 5rem;
 }
 

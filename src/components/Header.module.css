@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: #00715d; */
 }
 
 header {
@@ -20,42 +19,13 @@ header {
 .logo {
   width: 20vw;
   height: auto;
-  padding: 2%;
+  padding: 1% 1% 1% 3%;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
 }
 
 .logo img {
-  width: 10vw;
+  width: 12vw;
   height: auto;
-}
-
-.logo > :nth-child(1) {
-  position: relative;
-}
-
-.logo > :nth-child(2) {
-  position: absolute;
-  top: 35%;
-  right: 1%;
-  width: 8vw;
-  height: auto;
-  /* color: black; */
-  animation: moveBackAndForth 1.5s linear infinite alternate;
-}
-
-@keyframes moveBackAndForth {
-  0% {
-    right: 1%;
-  }
-  50% {
-    right: 10%;
-  }
-  100% {
-    right: 1%;
-  }
 }
 
 .right {
@@ -163,7 +133,9 @@ header {
   margin-top: 1%;
   display: flex;
   flex-direction: row;
-  width: 22.5%;
+  /* width: 22.5%; */
+  width: 25%;
+  margin-left: 5%;
 }
 
 .addressicon {
@@ -257,7 +229,7 @@ header {
   font-weight: 600;
   font-style: normal;
   font-size: 1.2vw;
-  color: #90c8be;
+  color: white;
   padding-top: 2%;
 }
 
@@ -267,7 +239,7 @@ header {
   font-weight: 600;
   font-style: normal;
   font-size: 1.2vw;
-  color: #90c8be;
+  color: white;
   padding-top: 2%;
   text-decoration: none;
 }
@@ -353,6 +325,7 @@ header {
   display: block;
   padding: 5px 10px;
   white-space: nowrap;
+  color: black;
 }
 
 .dropdownContent li a:hover {
@@ -436,7 +409,7 @@ header {
   }
 
   .Humburger {
-    color: #00715d;
+    color: black;
     font-size: 3.4vw;
     font-weight: 900;
   }
@@ -452,33 +425,51 @@ header {
   }
 
   .logo img {
-    width: 15vw;
+    width: 20vw;
     height: auto;
   }
 
-  .logo > :nth-child(1) {
+  /* .logo > :nth-child(1) {
     position: relative;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  .Contact {
+    display: none;
+  }
+  .btn {
+    display: none;
   }
 
-  .logo > :nth-child(2) {
-    position: absolute;
-    top: 18%;
-    /* right: -5%; */
-    /* left: 3%; */
-    width: 12vw;
+  .navbar {
+    width: 100%;
+    background-color: transparent;
+    justify-content: flex-end;
+    display: flex;
+    margin: 2%;
+  }
+
+  .Humburger {
+    color: black;
+    font-size: 8vw;
+    font-weight: 900;
+  }
+
+  .logo {
+    width: 31vw;
     height: auto;
-    animation: moveBackAndForth 1.5s linear infinite alternate;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin: 2%;
+    box-sizing: border-box;
   }
 
-  @keyframes moveBackAndForth {
-    0% {
-      right: 1%;
-    }
-    50% {
-      right: 10%;
-    }
-    100% {
-      right: 1%;
-    }
+  .logo img {
+    width: 35vw;
+    height: auto;
   }
 }

@@ -13,21 +13,21 @@ const ContactDetails = () => {
               <PiPhoneCall className={styling.Icon} />
               <div className={styling.text}>
                 <span>Helpline</span>
-                <p>+ 98 (000) - 9630</p>
+                <p>+1 (931)-266-6101 </p>
               </div>
             </div>
             <div className={styling.Details}>
               <IoMailOpenOutline className={styling.Icon} />
               <div className={styling.text}>
                 <span>Send email</span>
-                <p>needhelp@company.com</p>
+                <p>hello@kaltechconsultancy.tech</p>
               </div>
             </div>
             <div className={styling.Details}>
               <SlLocationPin className={styling.Icon} />
               <div className={styling.text}>
-                <span>380 St Kilda Road</span>
-                <p>Melbourne, Australia</p>
+                <span>815 N Wilson Rd, KY 40160,</span>
+                <p>Radcliff Kentucky</p>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ Footer {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, minmax(3.4em, 1fr));
-  gap: 3em;
+  gap: 1rem;
 
   padding: 2% 5%;
   z-index: 1;
@@ -42,14 +42,14 @@ Footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(42, 57, 54, 0.9);
+  background-color: rgba(15, 19, 18, 0.95);
   z-index: 1;
   pointer-events: none;
 }
 
 .column {
-  padding: 20px;
-  border-radius: 10px;
+  padding: 4%;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: auto;
@@ -59,6 +59,7 @@ Footer {
 }
 
 .contentWrapper .column .image {
+  margin-top: 2rem;
   width: 55%;
   height: auto;
 }
@@ -78,16 +79,17 @@ Footer {
 .h3 {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 10%;
   color: white;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
 }
 
 .ul {
   font-family: "manrope", sans-serif;
   font-size: 1rem;
   color: #98a8a5;
+  padding-left: 0;
 }
 
 .ul > * {
@@ -102,7 +104,8 @@ Footer {
   display: flex;
   gap: 2em;
   margin-top: 10%;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
+  justify-content: space-around;
 }
 
 .SocialIcons li > * {
@@ -115,7 +118,7 @@ Footer {
 }
 
 .lowerpart {
-  background-color: #212d2b;
+  background-color: black;
   display: flex;
 
   height: 10vh;
@@ -136,7 +139,7 @@ Footer {
   background: linear-gradient(to bottom, #00715d 51%, #fbd45a 50%);
   background-size: 100% 200%;
   background-position: 0 100%;
-  color: black;
+
   border: none;
   padding: 1.1rem 1.5rem;
   cursor: pointer;
@@ -146,10 +149,15 @@ Footer {
   max-width: 300px;
   box-sizing: border-box;
   margin: 5% 0;
+}
+
+.button a {
+  color: black;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 1.05rem;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -276,7 +284,7 @@ Footer {
     margin-top: 4%;
     font-family: "manrope", sans-serif;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: #98a8a5;
     margin-bottom: 0%;
   }
@@ -284,14 +292,14 @@ Footer {
   .h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 0%;
     color: white;
   }
 
   .ul > * {
     margin: 3% 0;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   .lowerpart {
@@ -390,9 +398,9 @@ Footer {
 
 @media (max-width: 452px) and (min-width: 391px) {
   .button {
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    width: 31vw;
+    width: 50vw;
     padding: 0.8rem 1.3rem;
   }
 }

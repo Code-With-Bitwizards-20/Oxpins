@@ -27,7 +27,7 @@ const Footer = () => {
 
               <button className={styling.button}>
                 {" "}
-                <FaHeart /> Donate Now
+                <FaHeart /> <a href=""> Donate Now</a>
               </button>
             </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
               <h3 className={styling.h3}>Contact</h3>
 
               <p className={`${styling.text} ${styling.address}`}>
-                380 Street Kilda Broklyn Road Melbourne Australia
+                815 N Wilson Rd, KY 40160, Radcliff Kentucky.
               </p>
               <ul className={styling.ul}>
                 <li>
@@ -65,14 +65,14 @@ const Footer = () => {
                   <IoMdMail
                     style={{ color: "#fbd45a", fontSize: "1.2rem" }}
                   />{" "}
-                  &nbsp; &nbsp;&nbsp; needhelp@company.com
+                  &nbsp; &nbsp;&nbsp; hello@kaltechconsultancy.tech
                 </li>
                 <li>
                   {" "}
                   <FaPhone
                     style={{ color: "#fbd45a", fontSize: "1.2rem" }}
                   />{" "}
-                  &nbsp; &nbsp; + 98 (000) - 9630
+                  &nbsp; &nbsp; +1(931)-266-6101
                 </li>
               </ul>
 
@@ -95,7 +95,9 @@ const Footer = () => {
         </div>
 
         <div className={styling.lowerpart}>
-          <p className={styling.text}>© All Copyright 2023 by Oxpins.com.</p>
+          <p className={styling.text}>
+            © All Copyright 2025 by Kaltech Consultancy.tech
+          </p>
         </div>
       </footer>
     </>
